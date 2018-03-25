@@ -58,10 +58,10 @@ search term here" />
     data: function()
     {  
         return {
-            articles: []
+            articles: [],
             searchTerm: '' 
         }     
-    } },
+    },
  methods: {
  searchNews: function() {
  let self = this;
